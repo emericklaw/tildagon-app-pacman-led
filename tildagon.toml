@@ -31,7 +31,7 @@ license = "MIT"
 url = "https://github.com/emericklaw/tildagon-app-pacman-led/"
 
 # Description of your app.  Maximum 140 characters!
-description = "App for controlling the LEDs on the Pacman Hexpansion."
+description = "Control the LEDs on the Pacman hexpansion created by The Untitled Goose."
 
 # Version number of your app.  If you push a commit where this number is
 # increased, we interpret this as a new version being released.
