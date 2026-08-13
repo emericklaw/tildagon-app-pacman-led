@@ -1,4 +1,4 @@
-# Pacman Hexpansion
+# Pacman LED Hexpansion
 
 ## Introduction
 The app controls the LEDs on the Pacman Hexpansion.

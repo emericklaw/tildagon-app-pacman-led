@@ -7,6 +7,8 @@ import settings
 from system.hexpansion.config import HexpansionConfig
 from app_components import layout as layout
 
+APP_VERSION = "0.2.0"
+
 main_menu_items = [
     "Power",
     "Slot",
@@ -159,7 +161,7 @@ class Pacman(app.App):
             ctx.save()
             self.about_layout = layout.LinearLayout(
                 [
-                    layout.TextDisplay("- Version: 0.1.0"),
+                    layout.TextDisplay("- Version: {}".format(APP_VERSION)),
                     layout.TextDisplay(
                         "Control the LEDs on the Pacman hexpansion created by The Untitled Goose"
                     ),
